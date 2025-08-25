@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  box-sizing: border-box;
+}
+.address{
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+.address input{
+  font-size: 15px;
+  margin: 7px;
+}
+.place-order{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+  padding-top: 25px;
+}
+.order-place{
+  width: 220px;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  border-width: 0px;
+  padding: 10px 16px;
+  background-color: rgb(255, 63, 108);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+}
+a{
+  text-decoration: none;
+}
+.payment{
+  display: flex;
+  justify-content: center;
+}
+.payment h3{
+  padding-top: 25px;
+  padding-right: 50px;
+}
+#radio-btn{
+  margin: 30px;
+  appearance: none;
+  outline: 3px solid #000;
+  outline-offset: 3px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+#radio-btn:checked{
+  background-color: #000;
+}
